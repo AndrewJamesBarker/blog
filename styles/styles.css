@@ -31,15 +31,16 @@ html {
     min-width: 550px;
 }
 
-body {
-    margin: .8em;
-}
+
 
 /* Header */
 
 
 .logo {
-    margin: 2em .1em;
+    /* margin-left: 2em; */
+    margin-top: .1em;
+    margin-right: 0;
+    padding: 0;
 }
 
 
@@ -54,8 +55,9 @@ body {
 
 
 #primary-nav {
-    
-    
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
     margin-top: 7em;
     justify-content: center;
     /* display: inline-block; */
@@ -198,14 +200,14 @@ img {
 
     min-width: 450px;
     margin-top: 1.6em;
-    margin-left: 2em;
+    margin-left: 3.1em;
 }
 
-.add {
+/* .add {
     margin-top: 3em;
     align-self: flex-end;
     justify-self: baseline;
-}
+} */
 
 .final-img {
     margin-top: 2em;
