@@ -1,0 +1,334 @@
+/* Logo is designed by © Andrew Barker. All photographs © Andrew Barker  */
+
+
+/* Border box */
+
+
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+/* Primary settings */
+
+html {
+    max-width: 80%;
+    font-family: 'Raleway', 'Times New Roman', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    background-image: linear-gradient(#F8F9FA, #DEE2E6);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.width-control {
+    min-width: 550px;
+}
+
+body {
+    margin: .8em;
+}
+
+/* Header */
+
+
+.logo {
+    margin: 2em .1em;
+}
+
+
+
+/* nav */
+
+.nav li a  {
+    /* display: inline; */
+    padding-top: 6em;
+    align-items: baseline;
+}
+
+
+#primary-nav {
+    margin-top: 7em;
+    justify-content: center;
+    /* display: inline-block; */
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.2em;
+    flex-direction: row;
+    /* display: inline; */
+    padding: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(101, 27, 205);
+}
+
+a:hover {
+    color: #0090b1;
+}
+a:active {
+    color: #6ee2ff
+}
+
+
+/* Main Elements */
+
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+h1 {
+    line-height: 1.5em;
+    font-size: 2.8em;
+    padding-top: 2.5em;
+}
+
+h2 {
+    margin-bottom: 1.8em;
+    padding: .3em;
+    font-size: 1.5em;
+    letter-spacing: .15em;
+}
+
+h3 {
+    padding: .3em;
+    font-size: 1.1em;
+}
+
+
+.center-align {
+    display: block;
+    text-align: center;
+}
+
+/* .underline {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 9em;
+    border-bottom: 1px solid black;
+} */
+
+.italic {
+    font-style: italic;
+}
+
+.paragraph{
+    min-width: 550px;
+    padding: 1em;
+}
+
+.paraThree {
+    
+    margin-top: 2em;
+    padding: 2em;
+    /* border: 1px solid black; */
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#small-inner-list, ul, li {
+    display: block;
+    font-size: .9em;
+}
+
+#small-inner-list2, ul, li {
+    display: block;
+    font-size: .9em;
+}
+
+.paragraph .flex-item-inner p {
+    line-height: 2em;
+}
+
+.spotify-plug {
+    margin-top: 7.9em;
+}
+
+/* Images */
+
+
+
+.aside-img {
+    margin-top: 2.2em;
+}
+
+.head-img {
+    max-width: 100%;
+    padding: 0%;
+    margin-top: 0%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 18px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 8px;
+}
+
+.mid-img {
+
+    min-width: 450px;
+    margin-top: 1.6em;
+    margin-left: 2em;
+}
+
+.add {
+    margin-top: 3em;
+    align-self: flex-end;
+    justify-self: baseline;
+}
+
+.final-img {
+    margin-top: 2em;
+}
+
+/* Buttons */
+
+.suscribe-btn {
+    align-self: baseline;
+    margin-top: 10.5em;
+    padding: 0%;
+    max-width: 136px;
+    min-width: 136px;
+}
+
+.submit-btn {
+    margin: .5em;
+}
+
+.btn {
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    height: 3.1em;
+    width: 7.4em;
+    font-size: .9em;
+    border-radius: 6px;
+    box-shadow: 0 4px grey;
+    transition: .3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #0090b1;
+}
+.btn:active {
+    color: black;
+    background-color: #02ccff;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+/* Flexbox header */
+
+.header-flex {
+    display: flex;
+    flex-flow: row;
+}
+
+/* Flexbox main */
+
+.flex-layout-box {
+    flex: 2 0 0;
+    /* border: 1px solid black; */
+    padding: 2em 1em;
+}
+
+.flex-container {
+    
+    display: flex;
+    flex-flow: row wrap;
+    gap: .8em;
+}
+
+.flex-article-item {
+    /* border: 1px solid black; */
+    padding: 1em;
+    margin-top: .8em;
+    flex: 2 0 0;
+}
+
+
+.flex-item-aside {
+    margin-top: 10.2em;
+    /* border: 1px solid black; */
+    row-gap: .8em;
+    flex: 1 0 0;
+}
+
+
+
+.flex-item-inner {
+    flex-flow: row wrap;
+    flex: 1 0 0; 
+}
+.flex-item-group2 {
+    /* padding: 1em; */
+    flex:  1 0 0;  
+    
+}
+
+/* Forms */
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2em;
+}
+
+textarea {
+    width: 100%;
+    
+}
+
+ label, input {
+    display: inline-block;
+    margin: .5em;
+}
+
+legend {
+    font-size: 1.4em;
+}
+input {
+    font-size: 1em;
+}
+
+/* Footer */
+
+.previous-comments {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
