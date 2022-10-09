@@ -38,7 +38,7 @@ html {
 
 .logo {
     /* margin-left: 2em; */
-    margin-top: .1em;
+    margin-top: .3em;
     margin-right: 0;
     padding: 0;
 }
@@ -55,9 +55,9 @@ html {
 
 
 #primary-nav {
-    padding: 0;
-    margin-right: 0;
-    margin-left: 0;
+    padding-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 7em;
     justify-content: center;
     /* display: inline-block; */
@@ -72,7 +72,7 @@ li {
     font-size: 1em;
     flex-direction: row;
     /* display: inline; */
-    padding: .8em;
+    padding: .7em;
 }
 
 li a {
@@ -163,6 +163,7 @@ a {
 }
 
 .paragraph .flex-item-inner p {
+    max-width: 500px;
     line-height: 2em;
 }
 
@@ -175,6 +176,7 @@ a {
 
 
 .aside-img {
+    min-width: 250px;
     margin-top: 2.2em;
 }
 
@@ -190,28 +192,27 @@ a {
 }
 
 img {
-    margin-left: auto;
+    padding: 0%;
+    /* margin-left: auto;
     margin-right: auto;
-    border: none;
+    border: none; */
     border-radius: 8px;
 }
 
 .mid-img {
 
-    min-width: 450px;
+    min-width: 250px;
     margin-top: 1.6em;
-    margin-left: 3.1em;
+    margin-left: 1em;
 }
 
-/* .add {
-    margin-top: 3em;
-    align-self: flex-end;
-    justify-self: baseline;
+/* .groupOfThreeImg {
+    min-width: 200px;
 } */
 
-.final-img {
+/* .final-img {
     margin-top: 2em;
-}
+} */
 
 /* Buttons */
 
@@ -283,6 +284,9 @@ img {
 
 
 .flex-item-aside {
+    max-width: 300px;
+    min-width: 250px;
+    margin-right: 6em;
     margin-top: 10.2em;
     /* border: 1px solid black; */
     row-gap: .8em;
@@ -292,6 +296,7 @@ img {
 
 
 .flex-item-inner {
+    
     /* flex-flow: row wrap; */
     flex: 1 0 0; 
 }
