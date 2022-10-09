@@ -54,6 +54,8 @@ body {
 
 
 #primary-nav {
+    
+    
     margin-top: 7em;
     justify-content: center;
     /* display: inline-block; */
@@ -267,7 +269,7 @@ img {
     
     display: flex;
     flex-flow: row wrap;
-    gap: .5em;
+    gap: .3em;
 }
 
 .flex-article-item {
